@@ -1,8 +1,3 @@
-//Codificado por: sAfOrAs
-/*
- * El ejemplo me ha servido para el uso de if else
- * https://beastieux.com/2008/01/03/codigo-c-calcular-salario-por-horas-trabajadas/
- */
 //Código Fuente: Calcula el salario de un trabajador.
 #include<iostream>
 #include<string>
