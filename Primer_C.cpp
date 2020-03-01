@@ -1,3 +1,5 @@
+// Mi primer programa C
+
 #include <stdio.h>
 #include <stdlib.h>
 
