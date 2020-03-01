@@ -1,4 +1,4 @@
-// Primer programa C++
+// Primer programa C++, diferencia con C 
 #include    <iostream>
 
 int main (void)
