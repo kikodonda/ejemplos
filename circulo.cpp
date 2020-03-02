@@ -25,3 +25,6 @@ int suma(int a, int b){
     c = a + b;
     return c;
 }
+
+
+//No se porque la funcion suma la pone fuera del main  
