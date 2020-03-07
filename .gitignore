@@ -341,3 +341,4 @@ healthchecksdb
 
 # Kiko - Añadido por mi
 *.project
+*.json
