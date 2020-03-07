@@ -1,3 +1,5 @@
+// Ejemplo en C de conexion con MongoDB
+
 #include <mongoc.h>
 #include <stdio.h>
 #include <stdlib.h>
