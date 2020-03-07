@@ -6,4 +6,21 @@ con una correspondencia directa y sin tratamiento análogo al de una variable.
 */
 #include <stdio.h>
 
+#define SECRETO 3
+
+const int PREMIO = 6;
+int main (void)
+{
+    int numero;
+    printf (" Escriba el numero secreto: ");
+    scanf ("%d", &numero);
+    fflush (stdin);
+
+    if (numero == SECRETO)
+    printf ("\nMuy bien. Has ganado %d puntos.", PREMIO);
+    else
+    printf ("\nLo siento, no lo has adivinado. Era: %d", SECRETO);
+    /*hacemos una pausa hasta que el usuario pulse intro */
+    getchar();
+}
 
