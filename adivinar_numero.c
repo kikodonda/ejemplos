@@ -1,4 +1,4 @@
-// Declaracion de globales
+// Declaracion de constantes en C
 
 #include <stdio.h>
 
