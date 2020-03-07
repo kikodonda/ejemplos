@@ -1,4 +1,4 @@
-// Mi primer programa C
+// Mi primer programa C, tipo hola mundo
 
 #include <stdio.h>
 #include <stdlib.h>
