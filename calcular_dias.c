@@ -1,6 +1,8 @@
 //DETERMINAR LA CANTIDAD DE DIAS QUE PASARON HASTA LA FECHA.
 
-#include <iostream>
+// Me da error no se exactamente si es por la libreria Glib
+
+#include <iostream.h>
 
 using namespace std;
 int main()
@@ -15,6 +17,3 @@ cin>>m>>a;
 
     cin.ignore(); return 0;
 }
-
-
-error?
