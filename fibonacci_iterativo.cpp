@@ -32,3 +32,5 @@ double performancecounter_diff(LARGE_INTEGER *a, LARGE_INTEGER *b)
   QueryPerformanceFrequency(&freq);
   return (double)(a->QuadPart - b->QuadPart) / (double)freq.QuadPart;
 }
+
+error

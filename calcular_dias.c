@@ -1,5 +1,7 @@
 //DETERMINAR LA CANTIDAD DE DIAS QUE PASARON HASTA LA FECHA.
-#include<iostream>
+
+#include <iostream>
+
 using namespace std;
 int main()
 {
@@ -13,3 +15,6 @@ cin>>m>>a;
 
     cin.ignore(); return 0;
 }
+
+
+error?

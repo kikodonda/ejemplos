@@ -28,3 +28,5 @@ int suma(int a, int b){
 
 
 //No se porque la funcion suma la pone fuera del main  
+
+error
