@@ -11,6 +11,8 @@ tanto, la función trabaja sobre el array original.
 No es necesario utilizar el operador & en el paso de arrays a funciones para indicar que se hace por referencia ya que siempre pasan por referencia.
 Una función en C++ no puede devolver un array mediante la instrucción return.
 
+Ejercicio: función que recibe un array de dos elementos e intercambia el contenido de estos dos elementos.
+
 */
 #include <iostream>
 using namespace std;
