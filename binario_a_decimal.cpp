@@ -4,9 +4,8 @@ Programa C++ que pasa un número de binario a decimal. El programa pide un núme
 */
 //Pasar de binario a decimal en C++
 
-// No funciona 
-
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 using namespace std;
 int main()
