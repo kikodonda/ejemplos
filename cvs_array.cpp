@@ -3,11 +3,12 @@ Intentando entender la lecurar de un archivo a una matrix multidimensional
 */
 
 #include <iostream>
-#include <conio.h>
+//#include <conio.h>
 #include <fstream>
-#include <vector>
+//#include <vector>
 
 using namespace std;
+
 struct ticket
 {
     int fecha;
@@ -23,36 +24,36 @@ int main()
 {
     ticket cotizacion;
     ifstream lectura;
-    lectura.open("ibex.csv");
+    lectura.open("ibex.csv", ios::in);
 
     for (std::string linea; std::getline(lectura, linea);)
     {
-        std::string registro(linea);
+        std::stringstream registro(linea);
         std::string dato;
 
         for (int columna = 0; std::getline(registro, dato, ','); ++columna)
         {
             switch (columna)
             {
-            case 0; // FECHA
+            case 0: // FECHA
                 cotizacion.fecha = std::stoi(dato);
             break;
-            case 1; // apertura
+            case 1: // apertura
                 cotizacion.apertura = std::stod(dato);
             break;
-            case 2; // alto
+            case 2: // alto
                 cotizacion.alto = std::stod(dato);
             break;
-            case 3; // bajo
+            case 3: // bajo
                 cotizacion.bajo = std::stod(dato);
             break;
-            case 4; // cierre
+            case 4: // cierre
                 cotizacion.cierre = std::stod(dato);
             break;
-            case 5; // ajuste_cierre
+            case 5: // ajuste_cierre
                 cotizacion.ajuste_cierre = std::stod(dato);
             break;
-            case 6; // volumen
+            case 6: // volumen
                 cotizacion.volumen = std::stod(dato);
             break;
          
@@ -62,4 +63,5 @@ int main()
         std::cout << dato << '\t';
     }
     std::cout << '\n';
+    }
 }
