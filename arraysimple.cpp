@@ -9,5 +9,7 @@ int main ()
   for(i=0; i<7; i++)
       cout << notas[i] << " "; //se muestra cada elemento del array
   cout << endl;
- return 0;
+  //system("pause");
+      return 0;
+
 }
