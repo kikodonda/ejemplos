@@ -3,6 +3,7 @@
 using namespace std;
 
 unsigned t0, t1;
+// Ejempllo codigo controlar tiempo de ejecucion
 
 int main  (){
 
